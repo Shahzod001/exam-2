@@ -140,7 +140,13 @@ a{
   padding-right: 20px;
   padding-left: 20px;
 }
-
+.containers{
+  max-width: 1463px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
 /* STICKY-FOOTER */
 
 .site-main{
@@ -1920,13 +1926,13 @@ ol{
 .loaction__box::before{
   position: absolute;
   top: calc(50% - 530px);
-  left: calc(50% - 670px);
+  left: calc(50% - 710px);
   background-image: url("../photos/contact-photo/bulldog.png");
   display: inline-block;
   width: 443px;
   height: 342px;
   content: "";
-
+  
 }
 
 /* CLINIC PAGE  */
@@ -1997,8 +2003,8 @@ ol{
 }
 .clinic-hair__imgs {
   position: absolute;
-    width: 307px;
-    height: 400px;
+  width: 307px;
+  height: 400px;
 }
 
 .about-new__text-box{
@@ -2080,4 +2086,484 @@ ol{
   font-size: 14px;
   line-height: 22px;
   color: #949494;
+}
+
+/* SERVECES-OPEN SECTION START  */
+
+.container-img{
+  max-width: 1480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.inspection {
+  padding-bottom: 174px;
+}
+.inspection__parent-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 223px;
+}
+.inspection__child-box {
+  width: 640px;
+}
+.inspection__list {
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+.inspection__item {
+  position: relative;
+  margin-right: 18px;
+}
+.inspection__item:nth-child(3) {
+  margin-right: 0px;
+}
+.inspection__item:nth-child(2):before{
+  position: absolute;
+  top: calc(50% - 0px);
+  left: calc(50% - 48px);
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  background: #FFBD54;
+  border-radius: 50%;
+}
+.inspection__item:nth-child(2)::after{
+  position: absolute;
+  top: calc(50% - 0px);
+  left: calc(50% + 45px);
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  background: #FFBD54;
+  border-radius: 50%;
+}
+.inspection__link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  
+  
+  color: #949494;
+}
+.inspection__link--bl{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  
+  
+  color: #333333;
+}
+.inspection__heading {
+  margin-bottom: 28px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  /* identical to box height, or 91% */
+  
+  
+  color: #333333;
+  
+}
+.inspection__minibox{
+  color:#FFBD54;
+}
+.inspection__part {
+  margin-bottom: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #949494;
+  
+}
+.inspection__part:nth-child(5){
+  margin-bottom: 64px;
+}
+.inspection__part--mw {
+  width: 492px;
+}
+.inspection__list-more {
+  width: 305px;
+  margin-top: 42px;
+}
+.inspection__item-more {
+  margin-bottom: 11px;
+  border: 1px solid #E4E4E2;
+  border-radius: 5px;
+}
+.inspection__heading-more {
+  margin-bottom: 13px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  
+  
+  color: #000000;
+  
+}
+.inspection__text-more {
+  margin-bottom: 28px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  
+  
+  color: #949494;
+  
+}
+.useful__box-link--dp {
+  display: inline-block;
+  /* margin-bottom: 38px;
+  margin-right: 22px; */
+}
+.more::before{
+  display: inline-block;
+  content: "";
+  width: 305px;
+  height: 180px;
+  background-image: url("../photos/services-photo/services-vet-dog.jpg");
+}
+.more:nth-child(2):before{
+  display: inline-block;
+  content: "";
+  width: 305px;
+  height: 180px;
+  background-image: url("../photos/services-photo/services-cat.jpg");
+}
+.more__box{
+  padding: 19px 27px 38px 22px;
+}
+
+
+/* ARTICLE START  */
+
+.site-article--dp {
+  margin-bottom: 187px;
+  padding-top: 64px;
+  padding-bottom: 65px;
+}
+.site-article__wrapper--dp {
+  align-items: flex-start;
+  margin-left: 0;
+  margin-right: 0;
+  width: 811px;
+}
+.site-article__child {
+  width: 276px;
+  margin-right: 61px;
+}
+.site-article__child-heading {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 62px;
+  /* or 111% */
+  
+  
+  color: #FFFFFF;
+  
+}
+.site-article__child-text {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  /* identical to box height, or 115% */
+  
+  
+  color: #FFFFFF;
+}
+.site-article__input {
+  margin-bottom: 14px;
+  border-radius: 0;
+}
+.site-article__img--dp {
+  top: calc(50% - 308.5px);
+  left: calc(50% - 115px);
+}
+.contact__input--dp{
+  width: 335px;
+  height: 165px;
+}
+.contact__input--dp{
+  width: 335px;
+  margin-right: 0;
+}
+/* .more:hover{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+} */
+
+
+/* BLOG PAGE START  */
+
+.minerals {
+  padding-top: 37px;
+  padding-bottom: 41px;
+  /* padding-bottom: 169px; */
+  background-position: calc(50% + 330px) calc(50% - 25px);
+  background-image: url("../photos/blog-photos/cat-blog.png");
+  background-repeat: no-repeat;
+  background-size: 415px 317px;
+}
+.minerals__wrapper {
+  padding-top: 81px;
+  margin-left: 91px;
+  width: 560px;
+  padding-bottom: 140px;
+}
+.minerals__heading {
+  margin-bottom: 21px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+.minerals__text {
+  width: 447px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #949494;
+}
+
+/* ANIMAL SECTION START  */
+
+.animal {
+  padding-bottom: 150px;
+}
+.animal__item {
+  display: flex;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  border-radius: 5px;
+  margin-bottom: 126px;
+}
+.animal__item::before{
+  content: "";
+  display: inline-block;
+  width: 558px;
+  height: 525px;
+  background-image: url("../photos/blog-photos/two-dogs.png");
+  background-repeat: no-repeat;
+}
+.animal__wrapper {
+  padding: 68px 110px 67px 81px;
+}
+.animal__boxs {
+  margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+}
+.animal__links {
+  margin-right: 7px;
+  color: #3D9CEA;
+}
+.animal__links--dp {
+  margin-right: auto;
+}
+.animal__time {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  
+  
+  color: #949494;
+  
+}
+.animal__box-heading {
+  margin-bottom: 20px;
+  width: 325px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  
+  color: #333333;
+}
+.animal__box-text {
+  margin-bottom: 48px;
+  width: 517px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  
+  
+  color: #949494;
+  
+}
+.animal__box-link {
+  position: relative;
+  margin-left: 33px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+.animal__box-link::before{
+  position: absolute;
+  left: calc(50% - 81px);
+  content: "";
+  width: 23px;
+  height: 21px;
+  background-size: 23px 21px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: url("../photos/header-photos/pet-header.svg");
+}
+
+.animal__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 116px;
+}
+.animal__items {
+  margin-right: 30px;
+  width: 305px;
+  border: 1px solid #E4E4E2;
+  border-radius: 5px;
+}
+.animal__items:nth-child(1){
+  margin-bottom: 60px;
+}
+.animal__items:nth-child(2){
+  margin-bottom: 60px;
+}
+.animal__items:nth-child(3){
+  margin-bottom: 60px;
+}
+.animal__items:nth-child(4){
+  margin-right: 0;
+}
+.animal__items:nth-child(8){
+  margin-right: 0;
+}
+.animal__items::before{
+  content: "";
+  width: 305px;
+  height: 180px;
+  display: inline-block;
+}
+.animal__items:nth-child(1):before{
+  background-image: url("../photos/blog-photos/shut-cat.png");
+}
+.animal__items:nth-child(2):before{
+  background-image: url("../photos/blog-photos/ddog.jpg");
+}
+.animal__items:nth-child(3):before{
+  background-image: url("../photos/blog-photos/dogs-blog.png");
+}
+.animal__items:nth-child(4):before{
+  background-image: url("../photos/blog-photos/shut-cat.png");
+}
+.animal__items:nth-child(5):before{
+  background-image: url("../photos/blog-photos/bg-green-cat.png");
+}
+.animal__items:nth-child(6):before{
+  background-image: url("../photos/blog-photos/mouse.png");
+}
+.animal__items:nth-child(7):before{
+  background-image: url("../photos/blog-photos/dog-blog.png");
+}
+.animal__items:nth-child(8):before{
+  background-image: url("../photos/blog-photos/y-dogs.png");
+}
+.animal__wrappers {
+  padding: 21px 22px 36px 22px;
+}
+.animal__times {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height */
+  
+  
+  color: #949494;
+  
+}
+.animal__boxs-heading {
+  width: 201px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  /* or 114% */
+  
+  
+  color: #000000;
+  
+}
+.animal__boxs-text {
+  margin-bottom: 34px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  
+  
+  color: #949494;
+}
+.animal__boxs-link {
+  position: relative;
+  margin-left: 33px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+}
+.animal__boxs-link::before{
+  position: absolute;
+  left: calc(50% - 81px);
+  content: "";
+  width: 23px;
+  height: 21px;
+  background-size: 23px 21px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: url("../photos/header-photos/pet-header.svg");
+}
+.btns{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 40px;
+  background: #333333;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  border: transparent;
+  color: #FFFFFF;
+}
+.btns::before{
+  display: inline-block;
+  margin-right: 6px;
+  content: "";
+  width: 19px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-image: url("../photos/blog-photos/remove.svg");
+}
+.btns:hover{
+  background-color: #FFBD54;
+  border-radius: 3px;
 }
